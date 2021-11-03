@@ -2,6 +2,8 @@ import React from "react";
 /* import Navbar from "./Navbar" */
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
+import { Jumbotron } from "./jumbotrom";
+import { Card } from "./card";
 import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
 
@@ -10,15 +12,24 @@ const Home = () => {
 	return (
 		<>
 			<Navbar />
-			<div className="container-fluid p-0">
-				<div className="row"></div>
+			<div className="container">
+				<Jumbotron />
 				<div className="row">
-					<div></div>
-					<div></div>
-					<div></div>
-					<div></div>
+					<div className="col-3">
+						<Card />
+					</div>
+					<div className="col-3">
+						<Card />
+					</div>
+					<div className="col-3">
+						<Card />
+					</div>
+					<div className="col-3">
+						<Card />
+					</div>
 				</div>
 			</div>
+			
 			<Footer />
 		</>
 	);
