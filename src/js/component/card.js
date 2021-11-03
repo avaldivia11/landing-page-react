@@ -5,7 +5,7 @@ export const Card = props => {
 			<div className="card">
 				<img
 					className="card-img-top"
-					src="https://picsum.photos/200/300?random=12"
+					src="https://picsum.photos/500/325?random=12"
 					alt=" Card image cap"
 				/>
 				<div className="card-body">

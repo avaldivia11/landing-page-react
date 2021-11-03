@@ -3,7 +3,7 @@ export const Jumbotron = props => {
 	return (
 		<>
 			<div className="">
-				<div className="jumbotron bg-secondary">
+				<div className="jumbotron bg-light p-5 mb-5">
 					<h1 className="display-4">A Warm, Welcome!</h1>
 					<p className="lead">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -20,11 +20,7 @@ export const Jumbotron = props => {
 						vehicula turpis non turpis auctor, placerat ullamcorper
 						lorem rutrum.
 					</p>
-					{/* <hr className="my-4" />
-					<p>
-						It uses utility classes for typography and spacing to
-						space content out within the larger container.
-					</p> */}
+
 					<p className="lead">
 						<a
 							className="btn btn-primary btn-lg"
