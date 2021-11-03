@@ -3,7 +3,7 @@ export const Jumbotron = props => {
 	return (
 		<>
 			<div className="">
-				<div className="jumbotron bg-secondary">
+				<div className="jumbotron bg-light">
 					<h1 className="display-4">A Warm, Welcome!</h1>
 					<p className="lead">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
